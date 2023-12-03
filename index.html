@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATE PARAGRAPH BY USING JS</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            background-color: lightgrey;
+            padding: 50px;
+        }
+
+        .container input{
+            width: 70%;
+            padding: 10px;
+        }
+
+        .container button {
+            padding: 12px;
+            border: none;
+            background-color: blueviolet;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .container p {
+            margin: 12px 0;
+            background-color:lightslategrey;
+            width: 78%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="number" id="data" placeholder="Write para of length">
+        <button onclick="addpara()">GENERATE</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
